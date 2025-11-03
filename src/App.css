@@ -1,0 +1,40 @@
+body {
+  background-color: #56D2CF;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#editor {
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  background-color: #0A8E8C;
+  color: white;
+  border: 18px solid #3DC0BE;
+  margin-bottom: 40px;
+}
+
+#preview {
+  border: 18px solid #3DC0BE;
+  color: white;
+  background-color: #0A8E8C;
+  padding: 50px;
+  font-family: 'Gerogia', serif;
+}
+
+#preview img {
+  width: 300px;
+  border: 2px solid white;
+}
+
+#preview a {
+  color: blue;
+}
+
+#preview a:hover {
+  color: orange;
+}
